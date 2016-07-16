@@ -40,7 +40,7 @@
 	}
 	
 	if($host=="" or $username=="" or $password==""){
-		$owner_email = $_POST["owner_email"];
+		$owner_email = $_POST["SDAutismPreSchool@gmail.com"];
 		$headers = 'From:' . $_POST["email"] . "\r\n" . 'Content-Type: text/plain; charset=UTF-8' . "\r\n";
 		$subject = 'A message from your site visitor ' . $_POST["name"];
 		
