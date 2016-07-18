@@ -129,7 +129,7 @@ a {
 }
 
 a:hover {
-	color: #ce9f56;
+	color: #c7dae8;
 }
 
 a.btn {
@@ -220,7 +220,8 @@ a.btn:hover {
 
 /*header*/
 header {
-    background: url(../images/brick.jpg) center -240px no-repeat;
+    background: url(../images/oceanside.jpg);
+    background-size: cover;
 	display: block;
     overflow: hidden;
     padding: 42px 0 0;
@@ -229,7 +230,7 @@ header {
 }
 
 .page1 header {
-    padding: 108px 0 0px;
+    padding: 20px 0 0px;
     background-position: center 0;
 }
 
@@ -273,7 +274,27 @@ header h1 a img {
     text-align: center;
     font: 36px/36px 'Yellowtail', cursive;
     color: #e7e6d4;
-    padding-bottom: 113px;
+    padding-bottom: 20px;
+}
+.member {
+    text-align: center;
+    font: 24px/24px 'Yellowtail';
+    color: #e7e6d4;
+    padding-bottom: 20px;
+}
+
+.about{
+    text-align: left;
+    font: 18px/18px 'Sans-Serif';
+    padding-bottom: 15px;
+    color: #5f604b;
+}
+
+.ty{
+    text-align: center;
+    font: 50px/50px 'Yellowtail', cursive;
+    padding-bottom: 15px;
+    color: #353d4a;
 }
 
 /**Content**/
